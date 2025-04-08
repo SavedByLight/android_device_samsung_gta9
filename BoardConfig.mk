@@ -14,5 +14,7 @@ BOARD_PREBUILT_DTBOIMAGE := $(DEVICE_PATH)/prebuilt/dtbo.img
 # Device Flags
 TW_DEVICE_VERSION := SavedByLight_gta9
 
+TARGET_SYSTEM_PROP += $(DEVICE_PATH)/system.prop
+
 # Inherit from common tree
 include device/samsung/mt6789-common/BoardConfigCommon.mk
